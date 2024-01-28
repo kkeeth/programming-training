@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { insertComma } from "../utilities";
+import { insertComma } from "../utilities.ts";
 
 test("Fill numbers with commas separated by 3 digits", () => {
   expect(insertComma()).toBe("");
