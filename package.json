@@ -14,9 +14,11 @@
   },
   "homepage": "https://github.com/kkeeth/programming-training#readme",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^1.2.2",
     "vitest": "^1.2.2"
   }
 }
